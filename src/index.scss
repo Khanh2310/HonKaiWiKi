@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-GraySoft;
+    width: 100%;
+    max-width: 1240px;
+    margin: 20px auto;
+  }
+  .banner {
+    @apply bg-[url('/public/Images/banner.jpg')];
+    background-repeat: no-repeat;
+    background-position: 40%;
+    object-fit: contain;
+  }
+  .charactershadow {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.27);
+  }
+}
